@@ -47,8 +47,8 @@ namespace ColonizacionMarte
             Console.WriteLine("Cada lanzamiento tiene un cargamento de hasta 10.000 kg.\n");
 
             int totalLanzamientos = 0;
-            string destino = "";
-            float pesoCarga = 0;
+            string destino;
+            float pesoCarga;
 
             /*
             Posiciones en los arreglos
@@ -168,6 +168,7 @@ namespace ColonizacionMarte
                     promedios[i] = arregloCargas[i] / arregloLanzamientos[i];
             }
             return promedios;
+
         }
     }
 }
